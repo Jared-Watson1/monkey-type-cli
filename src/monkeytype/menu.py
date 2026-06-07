@@ -8,7 +8,7 @@ from . import theme
 
 console = Console()
 
-# Each option resolves to a test config consumed by cli.run_test.
+# Each option resolves to a test config consumed by cli, or a string action.
 OPTIONS = [
     ("quote  short", {"mode": "words", "length": "short"}),
     ("quote  medium", {"mode": "words", "length": "medium"}),
@@ -17,6 +17,7 @@ OPTIONS = [
     ("time   30s", {"mode": "time", "duration": 30}),
     ("time   60s", {"mode": "time", "duration": 60}),
     ("zen", {"mode": "zen"}),
+    ("view stats", "stats"),
 ]
 
 
@@ -33,7 +34,7 @@ def _render(selected):
 
 
 def run():
-    """Return the chosen config dict, or None if the user quits."""
+    """Return the chosen config dict, an action string, or None if quitting."""
     selected = 0
     with keys.raw_mode():
         while True:

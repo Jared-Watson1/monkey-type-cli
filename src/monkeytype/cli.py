@@ -124,14 +124,20 @@ def main():
         cfg["seed"] = args.seed
         return cfg
 
-    cfg = _config_from_args(args) or menu.run()
-    while cfg:
-        cfg = _normalize(cfg)
+    choice = _config_from_args(args) or menu.run()
+    while choice:
+        if choice == "stats":
+            results.show_stats()
+            results.wait_for_key("press any key to return to the menu")
+            choice = menu.run()
+            continue
+
+        cfg = _normalize(choice)
         content = content_mod.Content(punctuation=cfg["punctuation"], seed=cfg["seed"])
         action = _play(cfg, content)
         if action == "menu":
-            cfg = menu.run()
+            choice = menu.run()
         elif action == "again":
-            pass
+            choice = cfg
         else:
-            break
+            choice = None

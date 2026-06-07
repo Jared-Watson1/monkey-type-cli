@@ -13,6 +13,13 @@ from . import theme
 console = Console()
 
 
+def wait_for_key(message="press any key to return"):
+    console.print()
+    console.print(Text(message, style=theme.SUBTLE, justify="center"))
+    with keys.raw_mode():
+        keys.read_key(timeout=None)
+
+
 def post_test_prompt():
     """Show replay options and return the chosen action."""
     hint = Text(justify="center")
