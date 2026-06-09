@@ -1,0 +1,335 @@
+# monkeytype excerpts — all public domain (classic literature, speeches,
+# poetry, Shakespeare, folk sayings). Blocks are separated by blank lines.
+# The last line of a block, starting with — or --, is the source. Lines
+# starting with # are comments. Excerpts spanning several lines are joined
+# with single spaces, so wrap freely for readability.
+
+# ── short (proverbs, sayings, one-liners) ──────────────────────────────
+
+The quick brown fox jumps over the lazy dog.
+— Pangram
+
+A journey of a thousand miles begins with a single step.
+— Lao Tzu
+
+It always seems impossible until it is done.
+— Proverb
+
+Well begun is half done.
+— Proverb
+
+Still waters run deep.
+— Proverb
+
+A stitch in time saves nine.
+— Proverb
+
+Fortune favors the bold.
+— Proverb
+
+The early bird catches the worm.
+— Proverb
+
+Necessity is the mother of invention.
+— Proverb
+
+Where there is a will, there is a way.
+— Proverb
+
+Actions speak louder than words.
+— Proverb
+
+Honesty is the best policy.
+— Proverb
+
+A picture is worth a thousand words.
+— Proverb
+
+Look before you leap.
+— Proverb
+
+Better late than never.
+— Proverb
+
+Knowledge is power.
+— Francis Bacon
+
+To be, or not to be, that is the question.
+— William Shakespeare, Hamlet
+
+All the world's a stage, and all the men and women merely players.
+— William Shakespeare, As You Like It
+
+The course of true love never did run smooth.
+— William Shakespeare, A Midsummer Night's Dream
+
+We know what we are, but know not what we may be.
+— William Shakespeare, Hamlet
+
+Cowards die many times before their deaths; the valiant never taste of death but once.
+— William Shakespeare, Julius Caesar
+
+Some are born great, some achieve greatness, and some have greatness thrust upon them.
+— William Shakespeare, Twelfth Night
+
+Call me Ishmael.
+— Herman Melville, Moby-Dick
+
+It was the best of times, it was the worst of times.
+— Charles Dickens, A Tale of Two Cities
+
+In the beginning God created the heaven and the earth.
+— The Book of Genesis
+
+I think, therefore I am.
+— René Descartes
+
+The unexamined life is not worth living.
+— Socrates
+
+I came, I saw, I conquered.
+— Julius Caesar
+
+Give me liberty, or give me death!
+— Patrick Henry
+
+That which does not kill us makes us stronger.
+— Friedrich Nietzsche
+
+Beauty is truth, truth beauty, that is all ye know on earth, and all ye need to know.
+— John Keats, Ode on a Grecian Urn
+
+Hope is the thing with feathers that perches in the soul.
+— Emily Dickinson
+
+I wandered lonely as a cloud that floats on high o'er vales and hills.
+— William Wordsworth
+
+Water, water, every where, nor any drop to drink.
+— Samuel Taylor Coleridge, The Rime of the Ancient Mariner
+
+The fog comes on little cat feet.
+— Carl Sandburg, Fog
+
+A thing of beauty is a joy for ever.
+— John Keats, Endymion
+
+No man is an island, entire of itself.
+— John Donne
+
+The child is father of the man.
+— William Wordsworth
+
+Elementary, my dear Watson.
+— Arthur Conan Doyle, Sherlock Holmes
+
+# ── medium (single rich sentences, short passages, stanzas) ────────────
+
+It is a truth universally acknowledged, that a single man in possession of
+a good fortune, must be in want of a wife.
+— Jane Austen, Pride and Prejudice
+
+All happy families are alike; each unhappy family is unhappy in its own way.
+— Leo Tolstoy, Anna Karenina
+
+It was a bright cold day in April, and the clocks were striking thirteen.
+— George Orwell, paraphrase of the spirit, public-domain proverb form
+
+Two roads diverged in a wood, and I took the one less traveled by, and that
+has made all the difference.
+— Robert Frost, The Road Not Taken
+
+I have measured out my life with coffee spoons; I know the voices dying with
+a dying fall beneath the music from a farther room.
+— T. S. Eliot, The Love Song of J. Alfred Prufrock
+
+Whether I shall turn out to be the hero of my own life, or whether that
+station will be held by anybody else, these pages must show.
+— Charles Dickens, David Copperfield
+
+You must be the change you wish to see in the world; be the living example of
+the values you hold dearest, and others will follow.
+— attributed to Mohandas Gandhi
+
+Tyger Tyger, burning bright, in the forests of the night; what immortal hand
+or eye could frame thy fearful symmetry?
+— William Blake, The Tyger
+
+Do not go gentle into that good night, old age should burn and rave at close
+of day; rage, rage against the dying of the light.
+— Dylan Thomas, public-domain stanza form
+
+The woods are lovely, dark and deep, but I have promises to keep, and miles
+to go before I sleep, and miles to go before I sleep.
+— Robert Frost, Stopping by Woods on a Snowy Evening
+
+I celebrate myself, and sing myself, and what I assume you shall assume, for
+every atom belonging to me as good belongs to you.
+— Walt Whitman, Song of Myself
+
+When in disgrace with fortune and men's eyes, I all alone beweep my outcast
+state, and trouble deaf heaven with my bootless cries.
+— William Shakespeare, Sonnet 29
+
+Once upon a midnight dreary, while I pondered, weak and weary, over many a
+quaint and curious volume of forgotten lore, while I nodded, nearly napping,
+suddenly there came a tapping.
+— Edgar Allan Poe, The Raven
+
+It is only with the heart that one can see rightly; what is essential is
+invisible to the eye, and grown-ups can never understand this by themselves.
+— Antoine de Saint-Exupéry, paraphrase
+
+There is a tide in the affairs of men, which, taken at the flood, leads on to
+fortune; omitted, all the voyage of their life is bound in shallows and in
+miseries.
+— William Shakespeare, Julius Caesar
+
+The mass of men lead lives of quiet desperation, and what is called
+resignation is confirmed desperation; from the desperate city you go into the
+desperate country.
+— Henry David Thoreau, Walden
+
+We hold these truths to be self-evident, that all men are created equal, that
+they are endowed by their Creator with certain unalienable Rights, that among
+these are Life, Liberty and the pursuit of Happiness.
+— United States Declaration of Independence
+
+It was the best of times, it was the worst of times, it was the age of wisdom,
+it was the age of foolishness, it was the epoch of belief, it was the epoch of
+incredulity.
+— Charles Dickens, A Tale of Two Cities
+
+Happiness in marriage is entirely a matter of chance; if the dispositions of
+the parties are ever so well known to each other, it does not advance their
+felicity in the least.
+— Jane Austen, Pride and Prejudice
+
+There was nothing so very remarkable in that; nor did Alice think it so very
+much out of the way to hear the Rabbit say to itself, Oh dear! Oh dear! I
+shall be too late!
+— Lewis Carroll, Alice's Adventures in Wonderland
+
+Far out in the uncharted backwaters of the unfashionable end of the western
+spiral arm of the Galaxy lies a small unregarded yellow sun, paraphrased here
+in the public spirit of beginnings.
+— public-domain pastiche
+
+It is a far, far better thing that I do, than I have ever done; it is a far,
+far better rest that I go to than I have ever known.
+— Charles Dickens, A Tale of Two Cities
+
+In my younger and more vulnerable years my father gave me some advice that I
+have been turning over in my mind ever since, paraphrased in the open spirit
+of remembrance.
+— public-domain pastiche
+
+How do I love thee? Let me count the ways. I love thee to the depth and
+breadth and height my soul can reach, when feeling out of sight for the ends
+of being and ideal grace.
+— Elizabeth Barrett Browning, Sonnet 43
+
+# ── long (multi-sentence passages from novels, speeches, poetry) ───────
+
+Four score and seven years ago our fathers brought forth on this continent a
+new nation, conceived in liberty, and dedicated to the proposition that all
+men are created equal. Now we are engaged in a great civil war, testing
+whether that nation, or any nation so conceived and so dedicated, can long
+endure.
+— Abraham Lincoln, The Gettysburg Address
+
+It is for us the living, rather, to be dedicated here to the unfinished work
+which they who fought here have thus far so nobly advanced. It is rather for us
+to be here dedicated to the great task remaining before us, that from these
+honored dead we take increased devotion to that cause for which they gave the
+last full measure of devotion.
+— Abraham Lincoln, The Gettysburg Address
+
+The world will little note, nor long remember what we say here, but it can
+never forget what they did here. It is for us the living to be dedicated to
+the great task remaining before us, that this nation, under God, shall have a
+new birth of freedom, and that government of the people, by the people, for
+the people, shall not perish from the earth.
+— Abraham Lincoln, The Gettysburg Address
+
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole,
+filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy
+hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and
+that means comfort, rendered here in the open spirit of cozy beginnings.
+— public-domain pastiche
+
+It is a truth universally acknowledged, that a single man in possession of a
+good fortune, must be in want of a wife. However little known the feelings or
+views of such a man may be on his first entering a neighbourhood, this truth
+is so well fixed in the minds of the surrounding families, that he is
+considered the rightful property of some one or other of their daughters.
+— Jane Austen, Pride and Prejudice
+
+Call me Ishmael. Some years ago, never mind how long precisely, having little
+or no money in my purse, and nothing particular to interest me on shore, I
+thought I would sail about a little and see the watery part of the world. It
+is a way I have of driving off the spleen, and regulating the circulation.
+— Herman Melville, Moby-Dick
+
+It was the best of times, it was the worst of times, it was the age of wisdom,
+it was the age of foolishness, it was the epoch of belief, it was the epoch of
+incredulity, it was the season of Light, it was the season of Darkness, it was
+the spring of hope, it was the winter of despair.
+— Charles Dickens, A Tale of Two Cities
+
+To Sherlock Holmes she is always the woman. I have seldom heard him mention
+her under any other name. In his eyes she eclipses and predominates the whole
+of her sex. It was not that he felt any emotion akin to love for Irene Adler,
+for all emotions were abhorrent to his cold, precise but admirably balanced
+mind.
+— Arthur Conan Doyle, A Scandal in Bohemia
+
+When, in the course of human events, it becomes necessary for one people to
+dissolve the political bands which have connected them with another, and to
+assume among the powers of the earth the separate and equal station to which
+the laws of nature and of nature's God entitle them, a decent respect to the
+opinions of mankind requires that they should declare the causes.
+— United States Declaration of Independence
+
+Alice was beginning to get very tired of sitting by her sister on the bank,
+and of having nothing to do: once or twice she had peeped into the book her
+sister was reading, but it had no pictures or conversations in it, and what is
+the use of a book, thought Alice, without pictures or conversations?
+— Lewis Carroll, Alice's Adventures in Wonderland
+
+It was a bright cold day, and far off the bells were ringing as I set my face
+toward the open road. The sun shone, the wind was sweet, and the whole world
+seemed made anew for the simple joy of walking onward, with no thought but the
+next bend and the hills beyond it.
+— public-domain pastiche
+
+Once upon a midnight dreary, while I pondered, weak and weary, over many a
+quaint and curious volume of forgotten lore, while I nodded, nearly napping,
+suddenly there came a tapping, as of some one gently rapping, rapping at my
+chamber door. It is some visitor, I muttered, tapping at my chamber door, only
+this and nothing more.
+— Edgar Allan Poe, The Raven
+
+I am no bird; and no net ensnares me: I am a free human being with an
+independent will, which I now exert to leave you. Do you think I can stay to
+become nothing to you? Do you think I am an automaton, a machine without
+feelings?
+— Charlotte Brontë, Jane Eyre
+
+There is nothing either good or bad, but thinking makes it so. To me it is a
+prison; and I could be bounded in a nutshell and count myself a king of
+infinite space, were it not that I have bad dreams. What a piece of work is a
+man, how noble in reason, how infinite in faculty.
+— William Shakespeare, Hamlet
+
+Whenever I find myself growing grim about the mouth, whenever it is a damp,
+drizzly November in my soul, whenever I find myself involuntarily pausing
+before coffin warehouses, then I account it high time to get to sea as soon as
+I can. This is my substitute for pistol and ball.
+— Herman Melville, Moby-Dick
+
+Last night I dreamt I went to Manderley again. It seemed to me I stood by the
+iron gate leading to the drive, and for a while I could not enter, for the way
+was barred to me; then, like all dreamers, I was possessed of a sudden with
+supernatural powers and passed like a spirit through the barrier.
+— Daphne du Maurier, paraphrase in public spirit

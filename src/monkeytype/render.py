@@ -25,7 +25,7 @@ def _typed_word(target, typed, is_current):
         else:
             style = theme.PENDING
         text.append(ch, style=style)
-    for extra in typed[len(target):]:
+    for extra in typed[len(target) :]:
         text.append(extra, style=theme.EXTRA)
     if is_current and cursor >= len(target):
         text.append(" ", style=theme.CURSOR)
@@ -53,7 +53,7 @@ def _wrap(lengths, width):
 def _window(lines, current_line):
     """A 3-line slice keeping the active line centered when possible."""
     start = max(0, current_line - 1)
-    return lines[start:start + VISIBLE_LINES]
+    return lines[start : start + VISIBLE_LINES]
 
 
 def _words_body(engine, width):
@@ -111,12 +111,18 @@ def _header(engine, remaining):
 
 
 def _footer(engine):
-    hint = "esc finish   ·   tab restart" if engine.is_zen else "tab restart   ·   esc quit"
+    hint = (
+        "esc finish   ·   tab restart"
+        if engine.is_zen
+        else "tab restart   ·   esc quit"
+    )
     return Text(hint, style=theme.SUBTLE, justify="center")
 
 
 def typing_view(engine, remaining, width, height):
-    inner = min(max(20, width - 8), INNER_MAX)
+    # Keep the panel (inner + 6 for borders and padding) inside the terminal so
+    # it never wraps; the low floor lets very narrow terminals stay readable.
+    inner = min(max(8, width - 8), INNER_MAX)
     if engine.is_zen:
         body, used = _zen_body(engine, inner)
     else:

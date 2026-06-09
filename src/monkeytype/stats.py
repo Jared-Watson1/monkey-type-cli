@@ -54,6 +54,31 @@ def summary(entries):
         "avg_wpm": round(sum(e["wpm"] for e in scored) / len(scored), 1),
         "recent_avg_wpm": round(sum(e["wpm"] for e in recent) / len(recent), 1),
         "avg_accuracy": round(sum(e["accuracy"] for e in scored) / len(scored), 1),
+        "recent_avg_accuracy": round(sum(e["accuracy"] for e in recent) / len(recent), 1),
+    }
+
+
+def progress(entries):
+    """Lifetime WPM/accuracy averages and how the most recent run compares.
+
+    The delta is the latest scored run measured against the lifetime average,
+    so a positive value means the run beat your usual pace.
+    """
+    scored = [e for e in entries if e["mode"] != "zen"]
+    if not scored:
+        return None
+    avg_wpm = round(sum(e["wpm"] for e in scored) / len(scored), 1)
+    avg_acc = round(sum(e["accuracy"] for e in scored) / len(scored), 1)
+    last = scored[-1]
+    return {
+        "avg_wpm": avg_wpm,
+        "avg_accuracy": avg_acc,
+        "last_wpm": last["wpm"],
+        "last_accuracy": last["accuracy"],
+        "wpm_delta": round(last["wpm"] - avg_wpm, 1),
+        "acc_delta": round(last["accuracy"] - avg_acc, 1),
+        # No delta arrow makes sense until there is more than one run to compare.
+        "has_history": len(scored) > 1,
     }
 
 
